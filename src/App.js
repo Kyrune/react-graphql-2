@@ -7,9 +7,14 @@ function App() {
   const client = new ApolloClient({
     uri: 'https://graphql-pokemon.now.sh'
   });
-  
+
   return (
     <div>
+      <ApolloProvider client={client}>
+        <main>
+          <PokemonsContainer />
+        </main>
+      </ApolloProvider>
     </div>
   );
 }
