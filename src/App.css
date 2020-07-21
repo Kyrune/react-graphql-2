@@ -8,3 +8,12 @@ html {
     -webkit-box-sizing: inherit;
     box-sizing: inherit;
 }
+
+body {
+    margin: 20px;
+    padding: 0 20px;
+    line-height: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #202020;
+    background-color: #fbfbfb;
+}
