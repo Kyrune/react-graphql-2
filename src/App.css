@@ -17,3 +17,12 @@ body {
     color: #202020;
     background-color: #fbfbfb;
 }
+
+/* Pokemon Application */
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 550px;
+    margin: 0 auto;
+}
