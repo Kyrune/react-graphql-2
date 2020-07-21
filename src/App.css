@@ -26,3 +26,14 @@ body {
     max-width: 550px;
     margin: 0 auto;
 }
+
+.container .pokemon {
+    width: 49%;
+    background-clip: border-box;
+    border-radius: 0.25rem;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.125);
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+}
