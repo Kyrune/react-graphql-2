@@ -64,3 +64,10 @@ body {
     max-width: 100%;
     height: auto;
 }
+
+.container .pokemon__attacks {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
