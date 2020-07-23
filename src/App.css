@@ -120,4 +120,8 @@ body {
     .container .pokemon {
         width: 100%;
     }
+
+    .container .pokemon__meta span {
+        margin-bottom: 10px;
+    }
 }
