@@ -115,4 +115,9 @@ body {
     .container .pokemon__attacks, .container .pokemon__meta {
         flex-wrap: wrap;
     }
+    .container .pokemon__meta span,
+    .container .pokemon__attacks span,
+    .container .pokemon {
+        width: 100%;
+    }
 }
