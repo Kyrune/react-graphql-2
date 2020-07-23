@@ -110,3 +110,9 @@ body {
         width: 100%;
     }
 }
+
+@media (max-width: 400px) {
+    .container .pokemon__attacks, .container .pokemon__meta {
+        flex-wrap: wrap;
+    }
+}
